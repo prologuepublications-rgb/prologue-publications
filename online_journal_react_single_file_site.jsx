@@ -1,3 +1,4 @@
+import NewComponent from './NewComponent';
 // App.tsx — your original Prologue Publications site code
 import React, { useState } from "react";
 import { motion } from "framer-motion";
@@ -170,6 +171,7 @@ export default function ProloguePublicationsSite() {
       <main>
         <IntroHero />
         <AboutSection />
+         <NewComponent />
         <SubmitSection />
         <section className="mx-auto max-w-6xl px-4 py-10">
           <SubscribeForm />
